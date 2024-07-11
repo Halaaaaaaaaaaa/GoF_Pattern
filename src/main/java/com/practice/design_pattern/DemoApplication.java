@@ -1,10 +1,10 @@
-package com.heysh.practice.design_pattern;
+package com.practice.design_pattern;
 
-import com.heysh.practice.design_pattern.builder.builders.CarBuilder;
-import com.heysh.practice.design_pattern.builder.builders.CarManualBuilder;
-import com.heysh.practice.design_pattern.builder.cars.Car;
-import com.heysh.practice.design_pattern.builder.cars.Manual;
-import com.heysh.practice.design_pattern.builder.director.Director;
+import com.practice.design_pattern.builder.builders.CarBuilder;
+import com.practice.design_pattern.builder.builders.CarManualBuilder;
+import com.practice.design_pattern.builder.cars.Car;
+import com.practice.design_pattern.builder.cars.Manual;
+import com.practice.design_pattern.builder.director.Director;
 
 public class DemoApplication {
 

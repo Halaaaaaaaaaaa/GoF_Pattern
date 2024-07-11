@@ -1,6 +1,6 @@
-package com.heysh.practice.design_pattern.builder.components;
+package com.practice.design_pattern.builder.components;
 
-import com.heysh.practice.design_pattern.builder.cars.Car;
+import com.practice.design_pattern.builder.cars.Car;
 
 public class TripComputer {
     private Car car;

@@ -1,8 +1,8 @@
-package com.heysh.practice.design_pattern.factoryMethod;
+package com.practice.design_pattern.factoryMethod;
 
-import com.heysh.practice.design_pattern.factoryMethod.factory.Dialog;
-import com.heysh.practice.design_pattern.factoryMethod.factory.HtmlDialog;
-import com.heysh.practice.design_pattern.factoryMethod.factory.WindowDialog;
+import com.practice.design_pattern.factoryMethod.factory.Dialog;
+import com.practice.design_pattern.factoryMethod.factory.HtmlDialog;
+import com.practice.design_pattern.factoryMethod.factory.WindowDialog;
 
 public class MainApplication {
 

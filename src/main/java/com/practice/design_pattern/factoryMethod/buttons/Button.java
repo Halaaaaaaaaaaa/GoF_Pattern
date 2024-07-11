@@ -1,4 +1,4 @@
-package com.heysh.practice.design_pattern.factoryMethod.buttons;
+package com.practice.design_pattern.factoryMethod.buttons;
 
 public interface Button {
     void render();

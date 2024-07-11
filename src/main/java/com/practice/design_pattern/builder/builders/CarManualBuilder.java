@@ -1,13 +1,13 @@
-package com.heysh.practice.design_pattern.builder.builders;
+package com.practice.design_pattern.builder.builders;
 
-import com.heysh.practice.design_pattern.builder.cars.Car;
-import com.heysh.practice.design_pattern.builder.cars.CarType;
-import com.heysh.practice.design_pattern.builder.components.Engine;
-import com.heysh.practice.design_pattern.builder.components.GPSNavigator;
-import com.heysh.practice.design_pattern.builder.components.Transmission;
-import com.heysh.practice.design_pattern.builder.components.TripComputer;
+import com.practice.design_pattern.builder.cars.CarType;
+import com.practice.design_pattern.builder.cars.Manual;
+import com.practice.design_pattern.builder.components.Engine;
+import com.practice.design_pattern.builder.components.GPSNavigator;
+import com.practice.design_pattern.builder.components.Transmission;
+import com.practice.design_pattern.builder.components.TripComputer;
 
-public class CarBuilder implements Builder {
+public class CarManualBuilder implements Builder {
     private CarType type;
     private int seats;
     private Engine engine;
@@ -15,6 +15,7 @@ public class CarBuilder implements Builder {
     private TripComputer tripComputer;
     private GPSNavigator gpsNavigator;
 
+    @Override
     public void setCarType(CarType type) {
         this.type = type;
     }
@@ -44,7 +45,7 @@ public class CarBuilder implements Builder {
         this.gpsNavigator = gpsNavigator;
     }
 
-    public Car getResult() {
-        return new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
+    public Manual getResult() {
+        return new Manual(type, seats, engine, transmission, tripComputer, gpsNavigator);
     }
 }
