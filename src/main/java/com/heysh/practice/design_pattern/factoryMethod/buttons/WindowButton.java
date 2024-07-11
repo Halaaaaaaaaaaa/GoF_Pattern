@@ -1,4 +1,4 @@
-package com.heysh.pratice.factoryMethod.buttons;
+package com.heysh.practice.design_pattern.factoryMethod.buttons;
 
 import javax.swing.*;
 import java.awt.*;

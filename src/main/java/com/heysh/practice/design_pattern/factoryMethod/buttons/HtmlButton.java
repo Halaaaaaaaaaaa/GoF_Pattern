@@ -1,4 +1,4 @@
-package com.heysh.pratice.factoryMethod.buttons;
+package com.heysh.practice.design_pattern.factoryMethod.buttons;
 
 public class HtmlButton implements Button {
 

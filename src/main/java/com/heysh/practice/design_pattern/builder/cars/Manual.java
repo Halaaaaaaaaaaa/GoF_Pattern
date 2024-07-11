@@ -1,9 +1,9 @@
-package com.heysh.pratice.builder.cars;
+package com.heysh.practice.design_pattern.builder.cars;
 
-import com.heysh.pratice.builder.components.Engine;
-import com.heysh.pratice.builder.components.GPSNavigator;
-import com.heysh.pratice.builder.components.Transmission;
-import com.heysh.pratice.builder.components.TripComputer;
+import com.heysh.practice.design_pattern.builder.components.Engine;
+import com.heysh.practice.design_pattern.builder.components.GPSNavigator;
+import com.heysh.practice.design_pattern.builder.components.Transmission;
+import com.heysh.practice.design_pattern.builder.components.TripComputer;
 
 public class Manual {
     private final CarType carType;

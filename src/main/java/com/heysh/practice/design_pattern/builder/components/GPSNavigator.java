@@ -1,4 +1,4 @@
-package com.heysh.pratice.builder.components;
+package com.heysh.practice.design_pattern.builder.components;
 
 public class GPSNavigator {
     private String route;

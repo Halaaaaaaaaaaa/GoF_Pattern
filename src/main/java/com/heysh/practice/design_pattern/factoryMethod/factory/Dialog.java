@@ -1,6 +1,6 @@
-package com.heysh.pratice.factoryMethod.factory;
+package com.heysh.practice.design_pattern.factoryMethod.factory;
 
-import com.heysh.pratice.factoryMethod.buttons.Button;
+import com.heysh.practice.design_pattern.factoryMethod.buttons.Button;
 
 public abstract class Dialog {
 

@@ -1,11 +1,11 @@
-package com.heysh.pratice.builder.director;
+package com.heysh.practice.design_pattern.builder.director;
 
-import com.heysh.pratice.builder.builders.Builder;
-import com.heysh.pratice.builder.cars.CarType;
-import com.heysh.pratice.builder.components.Engine;
-import com.heysh.pratice.builder.components.GPSNavigator;
-import com.heysh.pratice.builder.components.Transmission;
-import com.heysh.pratice.builder.components.TripComputer;
+import com.heysh.practice.design_pattern.builder.builders.Builder;
+import com.heysh.practice.design_pattern.builder.cars.CarType;
+import com.heysh.practice.design_pattern.builder.components.Engine;
+import com.heysh.practice.design_pattern.builder.components.GPSNavigator;
+import com.heysh.practice.design_pattern.builder.components.Transmission;
+import com.heysh.practice.design_pattern.builder.components.TripComputer;
 
 public class Director {
 
