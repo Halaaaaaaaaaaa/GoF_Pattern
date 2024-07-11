@@ -1,4 +1,4 @@
-## Repository for Practicing Various Programming 
 
+### Repository for Practicing Various Programming 
 
-### Gof Pattern, TCP/IP Socket, etc...
+#### GoF Pattern, TCP/IP Socket, etc...
